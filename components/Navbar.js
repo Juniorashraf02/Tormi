@@ -10,7 +10,7 @@ function Navbar() {
           <h2
             key={key}
             onClick={() =>router.push(`/?genre=${key}`)}
-            className="last:pr-24 cursor-pointer transition duration-200 transform hover:scale-125 active:text-red-500"
+            className="last:pr-5 cursor-pointer transition duration-200 transform hover:scale-125 active:text-red-500"
           >
             {title}
           </h2>
